@@ -247,6 +247,14 @@ blockchains = {
         "daily_price": "ethdailyprice",  # not available
         "daily_market_cap": "ethdailymarketcap",  # not available
     },
+    # BASE
+    8453: {
+        "url": "https://api.basescan.org/api?",
+        "price": "price",  # not available
+        "supply": "supply",  # not available
+        "daily_price": "ethdailyprice",  # not available
+        "daily_market_cap": "ethdailymarketcap",  # not available
+    },    
     # Arbitrum One
     42161: {
         "url": "https://api.arbiscan.io/api?",
